@@ -6,5 +6,7 @@
         public int ArtistId { get; set; }
         public string Album { get; set;}
         public int Length { get; set; }
+        public List<int> GenreIds { get; set; }
+
     }
 }
